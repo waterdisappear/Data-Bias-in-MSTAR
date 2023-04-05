@@ -14,7 +14,7 @@ JPEG-E: Linear mapping and contrast enhancement
 ```
 
 ## exp1
-Demo of the Shapley value and binary Shapley interaction
+ShapleyValue_Demo.py is a demo of calculating the Shapley value and binary Shapley interaction.
 
 ```python
 from exp1.DataLoad import load_data, load_test
