@@ -21,7 +21,6 @@ from exp1.DataLoad import load_data, load_test
 from exp1.TrainTest import model_train, model_shapely, model_test, class_model_shapely
 from model.Model import A_ConvNet
 
-
 train_all, label_name = load_data(arg.data_path + 'TRAIN')
 train_loader = torch.utils.data.DataLoader(train_all, batch_size=arg.batch_size, shuffle=True)
 
@@ -32,6 +31,7 @@ for epoch in tqdm(range(1, arg.epochs + 1)):
     model_train(model=model, data_loader=train_loader, opt=opt)
     # calculate shapely value and binary Shapley interaction of each epoch
     history = model_shapely(model=model, data_loader=train_loader, his=history)
-  
-clu, tar, sha = class_model_shapely(model=model, data_loader=train_loader, label_length=len(label_name)) # calculate shapely value of each classes
+    
+# calculate shapely value of each classes
+clu, tar, sha = class_model_shapely(model=model, data_loader=train_loader, label_length=len(label_name)) 
 ```
