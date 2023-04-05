@@ -6,5 +6,12 @@ https://arxiv.org/abs/2304.00668
 ## data
 The folder includes MSTAR data and images under SOC and SARbake segmentation files. Please unzip the files.
 
+```bash
+SOC: Ten classes of target recognition under standard conditions (JPEG-E)  
+SARbake: Corresponding segmented dataset  
+JPEG: Linear mapping  
+JPEG-E: Linear mapping and contrast enhancement  
+```
+
 ## exp1
 Demo of the Shapley value and binary Shapley interaction
