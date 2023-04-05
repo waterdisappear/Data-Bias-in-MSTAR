@@ -32,6 +32,6 @@ for epoch in tqdm(range(1, arg.epochs + 1)):
     # calculate shapely value and binary Shapley interaction of each epoch
     history = model_shapely(model=model, data_loader=train_loader, his=history)
     
-# calculate shapely value of each classes
+# calculate shapely value of each class
 clu, tar, sha = class_model_shapely(model=model, data_loader=train_loader, label_length=len(label_name)) 
 ```
