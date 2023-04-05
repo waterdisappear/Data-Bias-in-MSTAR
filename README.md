@@ -35,3 +35,5 @@ for epoch in tqdm(range(1, arg.epochs + 1)):
 # calculate shapely value of each class
 clu, tar, sha = class_model_shapely(model=model, data_loader=train_loader, label_length=len(label_name)) 
 ```
+
+SCR_signal_to_clutter.py calculate the clutter mean and SCR of each class.
