@@ -37,3 +37,7 @@ clu, tar, sha = class_model_shapely(model=model, data_loader=train_loader, label
 ```
 
 SCR_signal_to_clutter.py calculate the clutter mean and SCR of each class.
+
+## exp5
+Add SCR re-weighting during training.
+
