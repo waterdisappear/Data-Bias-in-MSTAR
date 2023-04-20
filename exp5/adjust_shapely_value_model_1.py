@@ -94,7 +94,7 @@ if __name__ == '__main__':
     target_shapley_ratio = target_shapley.mean(axis=0)/(clutter_shapley.mean(axis=0)+target_shapley.mean(axis=0)+shadow_shapley.mean(axis=0))
     shadow_shapley_ratio = shadow_shapley.mean(axis=0)/(clutter_shapley.mean(axis=0)+target_shapley.mean(axis=0)+shadow_shapley.mean(axis=0))
     #
-    np.savez('./shapely_model_1', clutter_shapley=clutter_shapley, target_shapley=target_shapley, shadow_shapley=shadow_shapley,
+    np.savez('./result/shapely_model_1', clutter_shapley=clutter_shapley, target_shapley=target_shapley, shadow_shapley=shadow_shapley,
              clutter_shapley_ratio=clutter_shapley_ratio, target_shapley_ratio=target_shapley_ratio, shadow_shapley_ratio=shadow_shapley_ratio,
              clutter_target=clutter_target, target_shadow=target_shadow, shadow_clutter=shadow_clutter,
              acc_train=acc_train, acc_test=acc_test, x=x)
@@ -113,7 +113,7 @@ if __name__ == '__main__':
     print(data['target_shadow'].mean(axis=0)[-1])
     print(data['shadow_clutter'].mean(axis=0)[-1])
 
-    np.savez('./class_shapely_model_1.npy', class_clutter_shapley=class_clutter_shapley, class_target_shapley=class_target_shapley, class_shadow_shapley=class_shadow_shapley)
+    np.savez('./result/class_shapely_model_1.npy', class_clutter_shapley=class_clutter_shapley, class_target_shapley=class_target_shapley, class_shadow_shapley=class_shadow_shapley)
 
     class_clutter_shapley_mean = class_clutter_shapley.mean(axis=0)
     class_target_shapley_mean = class_target_shapley.mean(axis=0)

@@ -19,7 +19,7 @@ rcParams.update(config)
 
 
 def plot_ratio(model_name, i=0):
-    data = np.load('shapely_'+model_name+'.npz')
+    data = np.load('result/shapely_'+model_name+'.npz')
     x = data['x']
     clutter_shapley = data['clutter_shapley']
     target_shapley = data['target_shapley']
@@ -55,7 +55,7 @@ def plot_ratio(model_name, i=0):
     # plt.show()
 
 def plot_shapley(model_name, i=0):
-    data = np.load('shapely_'+model_name+'.npz')
+    data = np.load('./result/shapely_'+model_name+'.npz')
     x = data['x']
     clutter_shapley = data['clutter_shapley']
     target_shapley = data['target_shapley']
@@ -88,7 +88,7 @@ def plot_shapley(model_name, i=0):
     # plt.show()
 
 def plot_Bshapley(model_name, i=0):
-    data = np.load('shapely_'+model_name+'.npz')
+    data = np.load('./result/shapely_'+model_name+'.npz')
     x = data['x']
     clutter_shapley = data['clutter_target']
     target_shapley = data['target_shadow']
@@ -129,7 +129,7 @@ if __name__ == '__main__':
     plot_shapley(model_name)
     plot_Bshapley(model_name)
 
-    data = np.load('shapely_'+model_name+'.npz')
+    data = np.load('./result/shapely_'+model_name+'.npz')
 
     print(data['acc_test'].mean(axis=0)[-1])
     print(data['acc_train'].mean(axis=0)[-1])
@@ -145,7 +145,7 @@ if __name__ == '__main__':
     print(data['target_shadow'].mean(axis=0)[-1])
     print(data['shadow_clutter'].mean(axis=0)[-1])
 
-    data = np.load('class_shapely_'+model_name+'.npy.npz')
+    data = np.load('./result/class_shapely_'+model_name+'.npy.npz')
 
     class_clutter_shapley=data['class_clutter_shapley']
     class_target_shapley = data['class_target_shapley']
