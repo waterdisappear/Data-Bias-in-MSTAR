@@ -1,7 +1,5 @@
 # Discovering and Explaining the Non-Causality of Deep Learning in SAR ATR
-
-This paper first analyzes the contributions and interactions of targets, clutter, and shadow regions during training. The contribution of clutter can be used as a quantitative indicator of the non-causality of deep learning. 
-https://arxiv.org/abs/2304.00668
+<a href="https://ieeexplore.ieee.org/document/10283916">This paper</a> analyzes the contributions and interactions of targets, clutter, and shadow regions during training for MSTAR dataset. The contribution of clutter can be used as a quantitative indicator of the non-causality of deep learning. 
 
 ## data
 The folder includes MSTAR data and images under SOC and SARbake segmentation files. Please unzip the files.
@@ -35,9 +33,23 @@ for epoch in tqdm(range(1, arg.epochs + 1)):
 # calculate shapely value of each class
 clu, tar, sha = class_model_shapely(model=model, data_loader=train_loader, label_length=len(label_name)) 
 ```
-
 SCR_signal_to_clutter.py calculate the clutter mean and SCR of each class.
 
 ## exp5
 Add SCR re-weighting during training.
+
+## Contact us
+If you have any questions, please contact us at lwj2150508321@sina.com
+
+```
+@ARTICLE{10100951,
+  author={Li, Weijie and Yang, Wei and Liu, Li and Zhang, Wenpeng and Liu, Yongxiang},
+  journal={IEEE Geoscience and Remote Sensing Letters}, 
+  title={Discovering and Explaining the Noncausality of Deep Learning in SAR ATR}, 
+  year={2023},
+  volume={20},
+  number={},
+  pages={1-5},
+  doi={10.1109/LGRS.2023.3266493}}
+```
 
