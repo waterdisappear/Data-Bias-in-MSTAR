@@ -1,6 +1,12 @@
 # Discovering and Explaining the Non-Causality of Deep Learning in SAR ATR
 <a href="https://ieeexplore.ieee.org/document/10283916">This paper</a> analyzes the contributions and interactions of targets, clutter, and shadow regions during training for MSTAR dataset. The contribution of clutter can be used as a quantitative indicator of the non-causality of deep learning. 
 
+An example between clutter and overfitting：
+<p align="center">
+  <img src="https://github.com/waterdisappear/Data-Bias-in-MSTAR/blob/main/class_scr_convenext.jpg" width="480">
+</p>
+
+
 ## data
 The folder includes MSTAR data and images under SOC and SARbake segmentation files. Please unzip the files.
 
