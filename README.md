@@ -102,10 +102,4 @@ Add SCR re-weighting during training to investigate whether changing the SCR wou
    }
     ~~~
 
-+ This project is strictly forbidden for any commercial purpose. Any questions please contact at lwj2150508321@sina.com.
-
-
-```
-
-```
-
++ This project is strictly forbidden for any commercial purpose. If you have any questions, please contact us at lwj2150508321@sina.com.
