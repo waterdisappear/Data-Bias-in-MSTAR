@@ -79,6 +79,11 @@ Add SCR re-weighting during training to investigate whether changing the SCR wou
 
 在训练过程中添加 SCR 重加权以研究改变SCR是否会影响对于杂波过拟合程度。
 
+## model
+Code for the eight models used for our experiment.
+
+我们实验的八个模型的代码。
+
 ## Acknowledgement
 
 Many thanks to the research [SARBake](SARbake).
