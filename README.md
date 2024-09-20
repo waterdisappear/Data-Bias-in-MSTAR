@@ -89,16 +89,16 @@ Many thanks to the research [SARBake](SARbake).
 This project is strictly forbidden for any commercial purpose. If you have any questions, please contact us at lwj2150508321@sina.com. 
 If you find our work is useful, please give us 🌟 in GitHub and cite our paper in the following BibTex format:
 
-    ```bash
-   @ARTICLE{li2023discovering,
-      author={Li, Weijie and Yang, Wei and Liu, Li and Zhang, Wenpeng and Liu, Yongxiang},
-      journal={IEEE Geoscience and Remote Sensing Letters}, 
-      title={Discovering and Explaining the Noncausality of Deep Learning in SAR ATR}, 
-      year={2023},
-      volume={20},
-      number={},
-      pages={1-5},
-      doi={10.1109/LGRS.2023.3266493}
-   }
-    ```
+```bash
+@ARTICLE{li2023discovering,
+  author={Li, Weijie and Yang, Wei and Liu, Li and Zhang, Wenpeng and Liu, Yongxiang},
+  journal={IEEE Geoscience and Remote Sensing Letters}, 
+  title={Discovering and Explaining the Noncausality of Deep Learning in SAR ATR}, 
+  year={2023},
+  volume={20},
+  number={},
+  pages={1-5},
+  doi={10.1109/LGRS.2023.3266493}
+}
+```
 
