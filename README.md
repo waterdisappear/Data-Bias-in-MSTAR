@@ -89,7 +89,7 @@ Many thanks to the research [SARBake](SARbake).
 This project is strictly forbidden for any commercial purpose. If you have any questions, please contact us at lwj2150508321@sina.com. 
 If you find our work is useful, please give us 🌟 in GitHub and cite our paper in the following BibTex format:
 
-    ```
+    ```bash
    @ARTICLE{li2023discovering,
       author={Li, Weijie and Yang, Wei and Liu, Li and Zhang, Wenpeng and Liu, Yongxiang},
       journal={IEEE Geoscience and Remote Sensing Letters}, 
