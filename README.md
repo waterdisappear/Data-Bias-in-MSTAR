@@ -86,7 +86,7 @@ Many thanks to the research [SARBake](SARbake).
 
 ## Statement
 
-This project is strictly forbidden for any commercial purpose. If you have any questions, please contact us at lwj2150508321@sina.com. 
+This project is strictly forbidden for any commercial purpose. Any questions please contact us at lwj2150508321@sina.com. 
 If you find our work is useful, please give us 🌟 in GitHub and cite our paper in the following BibTex format:
 
 ```bash
