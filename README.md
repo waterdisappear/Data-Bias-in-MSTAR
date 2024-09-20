@@ -27,7 +27,9 @@ We analyze the contributions and interactions of targets, clutter, and shadow re
 </figure>
 
 ## data
-The folder includes MSTAR data and images under SOC and SARbake segmentation files. Please unzip the files.
+The folder includes MSTAR images under SOC and SARbake segmentation files. 
+
+该文件夹包括 SOC 下的 MSTAR 图像以及 SARbake 分割文件。
 
 ```bash
 SOC: Ten classes of target recognition under standard conditions (JPEG-E)  
@@ -36,8 +38,17 @@ JPEG: Linear mapping
 JPEG-E: Linear mapping and contrast enhancement  
 ```
 
+```bash
+SOC: 标准条件下的十类目标识别 (JPEG-E)  
+SARbake: 对应的目标、阴影和背景分割文件
+JPEG: 对于原始复数数据的幅度图像进行了线性映射
+JPEG-E: 对于原始复数数据的幅度图像进行了线性映射和对比度增强
+```
+
 ## exp1
 ShapleyValue_Demo.py is a demo of calculating the Shapley value and binary Shapley interaction.
+
+ShapleyValue_Demo.py 是一个计算沙普利值和二元沙普利值交互的demo。
 
 ```python
 from exp1.DataLoad import load_data, load_test
@@ -58,10 +69,15 @@ for epoch in tqdm(range(1, arg.epochs + 1)):
 # calculate shapely value of each class
 clu, tar, sha = class_model_shapely(model=model, data_loader=train_loader, label_length=len(label_name)) 
 ```
+
 SCR_signal_to_clutter.py calculate the clutter mean and SCR of each class.
 
+SCR_signal_too_clutter.py 用于计算每个类别的杂波均值和 SCR。
+
 ## exp5
-Add SCR re-weighting during training.
+Add SCR re-weighting during training to investigate whether changing the SCR would affect the degree of overfitting for clutter.
+
+在训练过程中添加 SCR 重加权以研究改变SCR是否会影响对于杂波过拟合程度。
 
 ## Contact us
 If you have any questions, please contact us at lwj2150508321@sina.com
