@@ -81,12 +81,13 @@ Add SCR re-weighting during training to investigate whether changing the SCR wou
 
 ## Acknowledgement
 
-+ Many thanks to the research [SARBake](SARbake).
+Many thanks to the research [SARBake](SARbake).
 
 
 ## Statement
 
-+ If you find our work is useful, please give us 🌟 in GitHub and cite our paper in the following BibTex format:
+This project is strictly forbidden for any commercial purpose. If you have any questions, please contact us at lwj2150508321@sina.com. 
+If you find our work is useful, please give us 🌟 in GitHub and cite our paper in the following BibTex format:
 
     ~~~
    @ARTICLE{li2023discovering,
@@ -101,4 +102,3 @@ Add SCR re-weighting during training to investigate whether changing the SCR wou
    }
     ~~~
 
-+ This project is strictly forbidden for any commercial purpose. If you have any questions, please contact us at lwj2150508321@sina.com.
