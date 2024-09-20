@@ -81,8 +81,7 @@ Add SCR re-weighting during training to investigate whether changing the SCR wou
 
 ## Acknowledgement
 
-+ Many thanks to the following repos: [Remote-Sensing-RVSA](https://github.com/ViTAE-Transformer/Remote-Sensing-RVSA)、[iBOT](https://github.com/bytedance/ibot)、[A2MIM](https://github.com/Westlake-AI/A2MIM)、[core-pytorch-utils](https://github.com/serend1p1ty/core-pytorch-utils)、[solo-learn](https://github.com/vturrisi/solo-learn)、[OpenMixup](https://github.com/Westlake-AI/openmixup)、[timm](https://github.com/huggingface/pytorch-image-models)、[Adan](https://github.com/sail-sg/Adan).
-
++ Many thanks to the research [SARBake](SARbake).
 
 
 ## Statement
