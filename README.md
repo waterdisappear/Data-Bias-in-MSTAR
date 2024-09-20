@@ -79,18 +79,33 @@ Add SCR re-weighting during training to investigate whether changing the SCR wou
 
 在训练过程中添加 SCR 重加权以研究改变SCR是否会影响对于杂波过拟合程度。
 
-## Contact us
-If you have any questions, please contact us at lwj2150508321@sina.com
+## Acknowledgement
+
++ Many thanks to the following repos: [Remote-Sensing-RVSA](https://github.com/ViTAE-Transformer/Remote-Sensing-RVSA)、[iBOT](https://github.com/bytedance/ibot)、[A2MIM](https://github.com/Westlake-AI/A2MIM)、[core-pytorch-utils](https://github.com/serend1p1ty/core-pytorch-utils)、[solo-learn](https://github.com/vturrisi/solo-learn)、[OpenMixup](https://github.com/Westlake-AI/openmixup)、[timm](https://github.com/huggingface/pytorch-image-models)、[Adan](https://github.com/sail-sg/Adan).
+
+
+
+## Statement
+
++ If you find our work is useful, please give us 🌟 in GitHub and cite our paper in the following BibTex format:
+
+    ~~~
+   @ARTICLE{li2023discovering,
+      author={Li, Weijie and Yang, Wei and Liu, Li and Zhang, Wenpeng and Liu, Yongxiang},
+      journal={IEEE Geoscience and Remote Sensing Letters}, 
+      title={Discovering and Explaining the Noncausality of Deep Learning in SAR ATR}, 
+      year={2023},
+      volume={20},
+      number={},
+      pages={1-5},
+      doi={10.1109/LGRS.2023.3266493}
+   }
+    ~~~
+
++ This project is strictly forbidden for any commercial purpose. Any questions please contact at lwj2150508321@sina.com.
+
 
 ```
-@ARTICLE{10100951,
-  author={Li, Weijie and Yang, Wei and Liu, Li and Zhang, Wenpeng and Liu, Yongxiang},
-  journal={IEEE Geoscience and Remote Sensing Letters}, 
-  title={Discovering and Explaining the Noncausality of Deep Learning in SAR ATR}, 
-  year={2023},
-  volume={20},
-  number={},
-  pages={1-5},
-  doi={10.1109/LGRS.2023.3266493}}
+
 ```
 
