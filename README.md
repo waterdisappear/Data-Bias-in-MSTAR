@@ -7,6 +7,7 @@
 <a href="https://ieeexplore.ieee.org/document/10100951"><img src="https://img.shields.io/badge/Paper-IEEE%20GRSL-red"></a>
 </p>
 
+## Introduction
 This paper</a> analyzes the contributions and interactions of targets, clutter, and shadow regions during training for MSTAR dataset. The contribution of clutter can be used as a quantitative indicator of the non-causality of deep learning. 
 
 An example between clutter and overfitting：
