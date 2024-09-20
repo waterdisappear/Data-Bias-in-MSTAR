@@ -8,7 +8,9 @@
 </p>
 
 ## Introduction
-This is the official repository for the paper “Discovering and Explaining the Non-Causality of Deep Learning in SAR ATR”. We analyze the contributions and interactions of targets, clutter, and shadow regions during training for MSTAR dataset. The contribution of clutter can be used as a quantitative indicator of the non-causality of deep learning. 
+This is the official repository for the paper “Discovering and Explaining the Non-Causality of Deep Learning in SAR ATR”. 
+
+We analyze the contributions and interactions of targets, clutter, and shadow regions during training for MSTAR dataset. The contribution of clutter can be used as a quantitative indicator of the non-causality of deep learning. 
 
 An example between clutter and overfitting：
 <p align="center">
