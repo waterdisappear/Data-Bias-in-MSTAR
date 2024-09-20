@@ -1,6 +1,6 @@
 <h1 align="center"> Discovering and Explaining the Non-Causality of Deep Learning in SAR ATR (发现并解释SAR目标识别中深度学习的非因果性) </h1> 
 
-<h5 align="center"><em> Weijie Li, Wei Yang, Li Liu, Wenpeng Zhang, and Yongxiang (李玮杰, 杨威, 刘丽, 张文鹏, 刘永祥) </em></h5>
+<h5 align="center"><em> Weijie Li (李玮杰), Wei Yang (杨威), Li Liu (刘丽), Wenpeng Zhang (张文鹏), and Yongxiang (刘永祥) </em></h5>
 
 <p align="center">
 <a href="https://arxiv.org/abs/2304.00668"><img src="https://img.shields.io/badge/Paper-arxiv-red"></a>
