@@ -7,6 +7,16 @@
 <a href="https://ieeexplore.ieee.org/document/10100951"><img src="https://img.shields.io/badge/Paper-IEEE%20GRSL-red"></a>
 </p>
 
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li><a href="#Introduction">Catalog</a></li>
+    <li><a href="#data">License</a></li>
+    <li><a href="#exp1">Acknowledgement</a></li>
+    <li><a href="#exp5">Citation</a></li>
+  </ol>
+</details>
+
 ## Introduction
 This is the official repository for the paper “Discovering and Explaining the Non-Causality of Deep Learning in SAR ATR”. 
 
@@ -91,7 +101,8 @@ Many thanks to the research [SARbake](https://data.mendeley.com/datasets/jxhsg8t
 
 ## Statement
 
-This project is strictly forbidden for any commercial purpose. Any questions please contact us at lwj2150508321@sina.com. 
+This project is released under the [Attribution-NonCommercial 4.0 International](LICENSE).
+Any questions please contact us at lwj2150508321@sina.com. 
 If you find our work is useful, please give us 🌟 in GitHub and cite our paper in the following BibTex format:
 
 ```
