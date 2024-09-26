@@ -3,8 +3,8 @@
 <h5 align="center"><em> Weijie Li (李玮杰), Wei Yang (杨威), Li Liu (刘丽), Wenpeng Zhang (张文鹏), and Yongxiang (刘永祥) </em></h5>
 
 <p align="center">
+<a href="https://ieeexplore.ieee.org/document/10100951"><img src="https://img.shields.io/badge/Paper-IEEE%20GRSL-blue"></a>
 <a href="https://arxiv.org/abs/2304.00668"><img src="https://img.shields.io/badge/Paper-arxiv-red"></a>
-<a href="https://ieeexplore.ieee.org/document/10100951"><img src="https://img.shields.io/badge/Paper-IEEE%20GRSL-red"></a>
 </p>
 
 <p align="center">
