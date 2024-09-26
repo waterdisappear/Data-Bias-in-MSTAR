@@ -7,18 +7,16 @@
 <a href="https://ieeexplore.ieee.org/document/10100951"><img src="https://img.shields.io/badge/Paper-IEEE%20GRSL-red"></a>
 </p>
 
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li><a href="#Introduction">Introduction</a></li>
-    <li><a href="#Data">Data</a></li>
-    <li><a href="#Exp1">Exp1</a></li>
-    <li><a href="#Exp5">Exp5</a></li>
-    <li><a href="#Model">Model</a></li>
-    <li><a href="#Acknowledgement">Acknowledgement</a></li>
-    <li><a href="#Statement">Statement</a></li>
-  </ol>
-</details>
+<p align="center">
+  <a href="#Introduction">Introduction</a> |
+  <a href="#Data">Data</a> |
+  <a href="#Exp1">Exp1</a> |
+  <a href="#Exp5">Exp5</a>|
+  <a href="#Model">Model</a> |
+  <a href="#Acknowledgement">Acknowledgement</a> |
+  <a href="#Statement">Statement</a>
+</p >
+
 
 ## Introduction
 This is the official repository for the paper “Discovering and Explaining the Non-Causality of Deep Learning in SAR ATR”. 
