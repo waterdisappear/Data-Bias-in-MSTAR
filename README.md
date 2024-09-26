@@ -101,9 +101,9 @@ Many thanks to the research [SARbake](https://data.mendeley.com/datasets/jxhsg8t
 
 ## Statement
 
-This project is released under the [Attribution-NonCommercial 4.0 International](LICENSE).
-Any questions please contact us at lwj2150508321@sina.com. 
-If you find our work is useful, please give us 🌟 in GitHub and cite our paper in the following BibTex format:
+- This project is released under the [Attribution-NonCommercial 4.0 International](LICENSE).
+- Any questions please contact us at lwj2150508321@sina.com. 
+- If you find our work is useful, please give us 🌟 in GitHub and cite our paper in the following BibTex format:
 
 ```
 @ARTICLE{li2023discovering,
