@@ -10,10 +10,13 @@
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li><a href="#Introduction">Catalog</a></li>
-    <li><a href="#data">License</a></li>
-    <li><a href="#exp1">Acknowledgement</a></li>
-    <li><a href="#exp5">Citation</a></li>
+    <li><a href="#Introduction">Introduction</a></li>
+    <li><a href="#Data">Data</a></li>
+    <li><a href="#Exp1">Exp1</a></li>
+    <li><a href="#Exp5">Exp5</a></li>
+    <li><a href="#Model">Model</a></li>
+    <li><a href="#Acknowledgement">Acknowledgement</a></li>
+    <li><a href="#Statement">Statement</a></li>
   </ol>
 </details>
 
@@ -36,7 +39,7 @@ We analyze the contributions and interactions of targets, clutter, and shadow re
 </div>
 </figure>
 
-## data
+## Data
 The folder includes MSTAR images under SOC and SARbake segmentation files. 
 
 该文件夹包括 SOC 下的 MSTAR 图像以及 SARbake 分割文件。
@@ -55,7 +58,7 @@ JPEG: 对于原始复数数据的幅度图像进行了线性映射
 JPEG-E: 对于原始复数数据的幅度图像进行了线性映射和对比度增强
 ```
 
-## exp1
+## Exp1
 ShapleyValue_Demo.py is a demo of calculating the Shapley value and binary Shapley interaction.
 
 ShapleyValue_Demo.py 是一个计算沙普利值和二元沙普利值交互的demo。
@@ -84,12 +87,12 @@ SCR_signal_to_clutter.py calculate the clutter mean and SCR of each class.
 
 SCR_signal_too_clutter.py 用于计算每个类别的杂波均值和 SCR。
 
-## exp5
+## Exp5
 Add SCR re-weighting during training to investigate whether changing the SCR would affect the degree of overfitting for clutter.
 
 在训练过程中添加 SCR 重加权以研究改变SCR是否会影响对于杂波过拟合程度。
 
-## model
+## Model
 Code for the eight models used for our experiment.
 
 我们实验的八个模型的代码。
