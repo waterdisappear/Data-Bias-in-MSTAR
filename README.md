@@ -3,11 +3,6 @@
 <h5 align="center"><em> Weijie Li (李玮杰), Wei Yang (杨威), Li Liu (刘丽), Wenpeng Zhang (张文鹏), and Yongxiang (刘永祥) </em></h5>
 
 <p align="center">
-<a href="https://ieeexplore.ieee.org/document/10100951"><img src="https://img.shields.io/badge/Paper-IEEE%20GRSL-blue"></a>
-<a href="https://arxiv.org/abs/2304.00668"><img src="https://img.shields.io/badge/Paper-arxiv-red"></a>
-</p>
-
-<p align="center">
   <a href="#Introduction">Introduction</a> |
   <a href="#Data">Data</a> |
   <a href="#Exp1">Exp1</a> |
@@ -17,6 +12,10 @@
   <a href="#Statement">Statement</a>
 </p >
 
+<p align="center">
+<a href="https://ieeexplore.ieee.org/document/10100951"><img src="https://img.shields.io/badge/Paper-IEEE%20GRSL-blue"></a>
+<a href="https://arxiv.org/abs/2304.00668"><img src="https://img.shields.io/badge/Paper-arxiv-red"></a>
+</p>
 
 ## Introduction
 This is the official repository for the paper “Discovering and Explaining the Non-Causality of Deep Learning in SAR ATR”. 
