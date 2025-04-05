@@ -19,9 +19,9 @@
 </p>
 
 ## Introduction
-This is the official repository for the paper “Discovering and Explaining the Non-Causality of Deep Learning in SAR ATR”. 
+This is the official repository for the paper “Discovering and Explaining the Non-Causality of Deep Learning in SAR ATR”. If you find our work is useful, please give us a star 🌟 in GitHub and cite our paper in the BibTex format at the end.
 
-这里是论文 “Discovering and Explaining the Non-Causality of Deep Learning in SAR ATR (发现并解释SAR目标识别中深度学习的非因果性) ”的代码库。
+这里是论文 “Discovering and Explaining the Non-Causality of Deep Learning in SAR ATR (发现并解释SAR目标识别中深度学习的非因果性) ”的代码库。如果您觉得我们的工作有价值，请在 GitHub 上给我们个星星 🌟 并按页面最后的 BibTex 格式引用我们的论文。
 
 **Abstract:** In recent years, deep learning has been widely used in synthetic aperture radar (SAR) automatic target recognition (ATR) and achieved excellent performance on the moving and stationary target acquisition and recognition (MSTAR) dataset. However, due to constrained imaging conditions, MSTAR has data biases such as background correlation, that is, background clutter properties have a spurious correlation with target classes. Deep learning can overfit clutter to reduce training errors. Therefore, the degree of overfitting for clutter reflects the noncausality of deep learning in SAR ATR. Existing methods only qualitatively analyze this phenomenon. In this letter, we quantify the contributions of different regions to target recognition based on the Shapley value. The Shapley value of clutter measures the degree of overfitting. Moreover, we explain how data bias and model bias contribute to noncausality. Concisely, data bias leads to comparable signal-to-clutter ratios (SCR) and clutter textures in training and test sets. And various model structures have different degrees of overfitting for these biases. The experimental results of various models under standard operating conditions (SOCs) on the MSTAR dataset support our conclusions. 
 
