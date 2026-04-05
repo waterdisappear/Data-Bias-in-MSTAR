@@ -1,4 +1,4 @@
-<h1 align="center"> 🔍 Discovering and Explaining the Non‑Causality of Deep Learning in SAR ATR </h1> 
+<h1 align="center"> Discovering and Explaining the Non‑Causality of Deep Learning in SAR ATR </h1> 
 
 <h5 align="center"><em> Weijie Li (李玮杰), Wei Yang (杨威), Li Liu (刘丽), Wenpeng Zhang (张文鹏), and Yongxiang Liu (刘永祥) </em></h5>
 
